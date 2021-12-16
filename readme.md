@@ -1,1 +1,1 @@
-# Include all three practicals for the course introduction to scientific programming
+### Include all three practicals for the course introduction to scientific programming
