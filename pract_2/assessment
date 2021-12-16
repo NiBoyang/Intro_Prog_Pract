@@ -1,0 +1,14 @@
+Practical Exercise 2 Worth 30 marks (reminder Your total marks from all three exercises are your course mark)
+
+In this exercise I want you to read in a file that is formatted as an SD file. 
+This is a very common format in drug discovery used as a standard format for storing small molecules.
+
+I do not expect you to write code to read this format, we will read it with an external library. 
+Part of the learning outcomes of this practical is to explore this external library and learn how to utilise the features of such a library. 
+There are two ways to read from this format either a single molecule or a set of molecules from each file. 
+I will give you a test file for both, the single molecule is called rfp.sdf and the multiple set is called lfp.sdf. 
+For each molecule calculate and store somehow its centre of gravity, the extent of the molecule (ie the minimum and maximum x,y,z of each molecule. 
+Them compare the molecules in lfp to the single molecule in rfp.sdf and report the molecule in lfp where the box size is most similar. 
+You could enhance the program by analysing the distribution of differences in some way. 
+As previously a pass mark would (15) would be awarded for a basic functioning program. 
+This can be enhanced by appropriate and correct comments, a useful readme file, and enhancements to the code to improve its functionality
