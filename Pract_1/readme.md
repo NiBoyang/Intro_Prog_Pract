@@ -2,7 +2,7 @@ File name: pract1.py
 
 =========
 Function:
-=========
+
   pract1.py is a program that will read a file formated as
 
   ---------------
@@ -27,13 +27,13 @@ Function:
 
 ======
 Usage:
-======
+
   Put this python file and your data file in the same directory, then type in terminal:
     python pract1.py input_file  *or*  ./pract1.py input_file
 
 ===========
 Limitation:
-===========
+
  1. If there are many incorrect inputs in your data file, you can only deal with them one by one,
   because the program only tells you one error each run.
 
