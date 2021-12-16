@@ -1,0 +1,49 @@
+File name: pract2.py
+
+========
+Function
+========
+pract2.py is a program that will accept two SDF files of
+a single molecule and a list of molecules as inputs.
+
+1. The prorgam will give out the molecule name, max extent,
+min extent, simple centre of gravity, weighted centre of
+gravity, box size of each molecule. Also it will calculate
+the box similarity between the reference molecule and each
+molecule in the list.TWO similarities will be given.
+The algorithm of the similarity calculation is shown in the result.
+
+2. Futhermore, the program will also plot the distribution of
+the similarity, and the 2d structure of each molecule.
+
+======
+Usage:
+======
+python pract2.py input1 input2
+
+=====
+Note:
+=====
+1. All the results are knitted into a html file. If you are
+using mscoc3 to run the program, it will natively call the
+inbuilt firefox to open the html file.
+
+2. Since two similarities indicate different most similar
+boxes, the program will point out which molecule has the
+most similar box size in the title of the distribution plot.
+
+3.data will be formatted in a dataframe. The first row
+of the dataframe is the single molecule with the index name
+"Single Mol". The rest of the molecules are molecules in the
+list, the index indicates the corresponding sequence of the
+molecules in the list, also it intuitively tells you how many
+molecules are in the list.
+
+===========
+Limitation:
+===========
+The mscoc3 inbuilt firefox might possibly be to laggy to use.
+You can right click the HTML file in the directory to open it
+with your local broswer if you are using MobaXterm.
+
+***Right Click "result.html">>> Open with default program***
